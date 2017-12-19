@@ -103,7 +103,7 @@ figure{
     font-size: 40px;
 }
 figure.uno{
-    background-image: url("images/mockups.JPG");
+    background-image: url("../images/mockups.JPG");
     color: white;
     display: inline-flex;
     justify-content: center;
@@ -115,7 +115,7 @@ figure.uno{
     float: left;
 }
 figure.dos{
-    background-image: url("images/wireframes.JPG");
+    background-image: url("../images/wireframes.JPG");
     color: white;
     display: inline-flex;
     justify-content: center;
@@ -127,7 +127,7 @@ figure.dos{
     float: left;
 }
 figure.tres{
-    background-image: url("images/prototype.JPG");
+    background-image: url("../images/prototype.JPG");
     color: white;
     display: inline-flex;
     justify-content: center;
@@ -139,7 +139,7 @@ figure.tres{
     float: left;
 }
 figure.cuatro{
-    background-image: url("images/maquetacioncss.JPG");
+    background-image: url("../images/maquetacioncss.JPG");
     color: white;
     display: inline-flex;
     justify-content: center;
