@@ -90,6 +90,7 @@ a:hover{
     color:black;
 }
 a:active{
+    color: white;
 }
 
 section{
@@ -179,6 +180,9 @@ figure a:visited{
 figure a:hover{
     color: white;
     background-color: rgba(68, 56, 124, 0.4);
+}
+figure a:active{
+    color: rgba(109, 113, 119, 1);
 }
 footer{
     position: fixed;
