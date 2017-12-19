@@ -1,6 +1,6 @@
 *{
-    border: 1px solid blue;
-    margin: 9px;
+   border: 1px solid blue;
+   /*margin: 9px;*/
 }
 body{
     background-color: white;
@@ -11,11 +11,13 @@ mark{
 
 }
 img{
-
 	box-shadow: 0 0 50px gray;
 }
 figure{
 	position: relative;
+	display: inline-table;
+	width: 600px;
+
 }
 figcaption{
 	position: absolute;
