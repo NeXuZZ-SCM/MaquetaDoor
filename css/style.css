@@ -1,27 +1,233 @@
 *{
-   border: 1px solid blue;
-   /*margin: 9px;*/
+   /*border: 1px solid blue;*/
+    /*margin: 9px;*/
+}
+html{
+    min-width: 700px;
+    min-height: 700px;
 }
 body{
-    background-color: white;
+    margin:0px;
 }
-mark{
-
-   background-color: rgba(254, 255, 63, 0.6);
+header{
+    position: fixed;
+    margin:0px;
+    margin-right: 10px;
+    padding-top: 5px;
+    width: 100%;
+    height: 50px;
+    background-color: gray;
+    top:0px;
+    text-align: center;
+    min-width: 700px;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.7);
 
 }
-img{
-	box-shadow: 0 0 50px gray;
+.logo{
+    position: absolute;
+    display: inline-block;
+    margin-top: 0px;
+    left:0px;
+
+}
+figure.logo img{
+    width: 90px;
+}
+h1{
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0px;
+    display: inline-block;
+}
+h2{
+    font-family: 'Dancing Script', cursive;
+    margin-top:80px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+nav{
+    position: absolute;
+    right: 0px;
+    top:0px;
+    display: inline-block;
+}
+ul{
+    margin:0 auto;
+    padding: 2px;
+}
+li{
+    display: inline-block;
+    float: left;
+    width: 100%;
+    background-color: #6E6E6E;
+    font-family: 'Roboto', sans-serif;
+    width: 70px;
+    height: 50px;
+
+
+}
+li:hover{
+    background-color: #424242;
+    border-bottom: 2px solid white;
+}
+a{
+/*    display: block;*/
+    width: 100%;
+    height: 100%;
+    margin-left: 0px;
+    text-decoration: none;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+a:link{
+    color: white;
+}
+a:visited{
+}
+a:hover{
+    color:black;
+}
+a:active{
+}
+
+section{
+    margin: 0 auto;
+    width: 700px;
+    height: 400px;
+    background-color: red;
+    box-shadow: 0px 0px 15px 5px rgba(0, 0, 0, 0.5)
 }
 figure{
-	position: relative;
-	display: inline-table;
-	width: 600px;
+    font-family: 'Dancing Script', cursive;
+    font-size: 40px;
+}
+figure.uno{
+    background-image: url("images/mockups.JPG");
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;    
+    height: 100px;
+    background-color: blue;
+    margin: 0px;
+    float: left;
+}
+figure.dos{
+    background-image: url("images/wireframes.JPG");
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: green;
+    margin: 0px;
+    float: left;
+}
+figure.tres{
+    background-image: url("images/prototype.JPG");
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: orange;
+    margin: 0px;
+    float: left;
+}
+figure.cuatro{
+    background-image: url("images/maquetacioncss.JPG");
+    color: white;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100px;
+    background-color: gray;
+    margin: 0px;
+    float: left;
+}
+figure.cuatro:hover{
+    background-color: black;
+}
+figure.tres:hover{
+    background-color: black;
+}
+figure.dos:hover{
+    background-color: black;
+}
+figure.uno:hover{
+    background-color: black;
+}
+figure a{
+    display: block;
+    text-align: center;
+    width: 100%;
+    height:100%;
+    text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
+}
+figure a:link{
+    color: rgba(109, 113, 119, 1);
+}
+figure a:hover{
+    color: white;
+    background-color: rgba(68, 56, 124, 0.4);
+}
+footer{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: #D7D7D7  ;
+    bottom: 0px;
+    margin-top: 50px;
+    min-width: 700px;
+}
+.licencia{
+    position: absolute;
+    margin-top: 0px;
+    top:0px;
+    left: 0px;
+    height: 30px;
+    box-shadow: none;
+    width: 120px;
+}
+.imagenlic{
+    height: 30px;
+    width: 100%;
+    background-color:#D7D7D7  ;
 
 }
-figcaption{
-	position: absolute;
-	top: 8px;
-    left: 16px;
-    font-size: 18px;
+.imagenlics{
+    top: 0px;
+    position: absolute;
+    left: 0px;
+
+}
+.linklic{
+    text-align: left;
+    width: 200px;
+    margin-top: 10px;
+}
+
+.facebook{
+    margin-left: 18%;
+    display: inline;
+    width: 75px;
+
+    
+
+}
+.linkedin{
+    display: inline;
+    width: 75px;
+    margin: 0 auto;
+
+}
+.github{
+    display: inline;
+    width: 200px;
+
 }
