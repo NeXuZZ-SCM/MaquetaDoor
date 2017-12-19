@@ -1,51 +1,49 @@
 <!DOCTYPE html>
-<html lang="es">
+<html>
 <head>
-    <meta charset="UTF-8"/>
-    <meta name="description" content="Enseñanza de HTML5 y CSS3"/>
-    <meta name="keywords" content="html5, css3, javascript, diseño web, maquetado"/>
-    <title>MaquetaDoor</title>
-    <link rel="stylesheet" type="text/css" href="css/style.css">
-    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-    <script type="text/javascript" src="js/script.js"></script>
-
-    <script>//mostrar pagina de a poco
-    $(function(){
-        $("body").hide().fadeIn(5000);
-    })
-</script>
+    <title>Jugando con bloques</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script|Roboto" rel="stylesheet">
 
 </head>
 <body>
     <header>
-        <hgroup>
-           <h1>MaquetaDoor</h1>
-           <h2>Un proyecto <mark>inspirado en las personas</mark> que inician y quieren aprender a maquetar sitios webs</h2>
-       </hgroup>
-   </header>
-   <aside>
-    <article>
-        Ese sitio <em>pretende</em> llevarte por las etapas de un diseño web desde su dibujo que incluso puede hacerse en papel hasta su prototipo ya con funcionalidades a punto de salir a produccion
-    </article>
-</aside>
-<section>
-    <figure>
-        <img src="images/mockups.JPG" width="200px" height="176px" />
-        <figcaption>Mockups</figcaption>
-        <img src="images/wireframes.JPG" width="300px"/>
-        <figcaption>Wireframes</figcaption>
-        <img src="images/prototype.JPG" width="200px" height="150px"/>
-        <figcaption>Prototipado</figcaption>
-        <img src="images/maquetacioncss.JPG" width="300px"/>
-        <figcaption>Maquetacion CSS3</figcaption>
-        <img src="images/semantichtml.JPG" width="200px"/>
-        <figcaption>Semantica HTML5</figcaption>
+        <figure class="logo"><img src="images/logo.png"></figure>
+        <h1>MaquetaDoor</h1>
 
-    </figure>
+    <nav>
+        <ul>
+            <li><a href="google.com">inicio</a></li>
+            <li><a href="google.com">HTML5</a></li>
+            <li><a href="google.com">CSS3</a></li>
+            <li><a href="google.com">Contacto</a></li>
+        </ul>
+    </nav>
+    </header>
+        <h2>“Dime y lo olvido, enséñame y lo recuerdo, involúcrame y lo aprendo.” Benjamin Franklin.</h2>
+    
+    
+<section>
+    <figure class="uno"><a href="google.com">Mockups</a></figure>
+    <figure class="dos"><a href="http://pagina.com/wireframses">Wireframes</a></figure>
+    <figure class="tres"><a href="google.com">Prototype</a></figure>
+    <figure class="cuatro"><a href="google.com">Maquetacion CSS</a></figure>
 </section>
 <footer>
-    <address>WWW</address>
-</footer>
+    <section class="licencia">
+    <a class="imagenlic" rel="license" href="http://creativecommons.org/licenses/by/4.0/"><img class="imagenlics" alt="Licencia Creative Commons" src="https://i.creativecommons.org/l/by/4.0/88x31.png" /></a>
 
+    
+    <a class="linklic" rel="license" href="http://creativecommons.org/licenses/by/4.0/"><small>Esta obra está bajo una Licencia Creative Commons Atribución 4.0 Internacional</small></a>
+
+    
+
+    </section>
+    <a class="facebook" rel="license" href="http://facebook.com"><img class="facebook" alt="Licencia Creative Commons" src="images/facebook.png" /></a>
+
+    <a class="linkedin" rel="license" href="http://linkedin.com"><img class="linkedin" alt="Licencia Creative Commons" src="images/linkedin.png" /></a>
+
+    <a class="github" rel="license" href="http://github.com"><img class="github" alt="Licencia Creative Commons" src="images/github.png" /></a>
+</footer>
 </body>
 </html>
