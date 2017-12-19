@@ -84,6 +84,7 @@ a:link{
     color: white;
 }
 a:visited{
+    color: white;
 }
 a:hover{
     color:black;
@@ -170,6 +171,9 @@ figure a{
     text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8);
 }
 figure a:link{
+    color: rgba(109, 113, 119, 1);
+}
+figure a:visited{
     color: rgba(109, 113, 119, 1);
 }
 figure a:hover{
